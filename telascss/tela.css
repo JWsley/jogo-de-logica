@@ -1,0 +1,90 @@
+@import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: white;
+    font-family: 'Orbitron', sans-serif;
+}
+
+
+
+body{
+    display: flex;
+    height: 1000px;
+    align-items: center;
+    width: 1920px;
+    background: url(../img/tela.gif);
+    flex-direction: column;
+    background-size: 1920px 1000px ;
+    background-repeat: no-repeat;
+}
+
+
+.container{
+    display: flex;
+    flex-direction: column;
+    margin-top: 8%;
+    align-items: center;
+
+}
+
+
+.title{
+    font-size: 50px;
+    cursor: default;
+}
+
+.pergunta{
+    margin-left: 4%;
+    margin-right: 4%;
+    border: 2px solid white;
+    max-width: 1000px;
+    width: 850px;
+    height: 500px;
+    font-size: 17px;
+    border-radius: 15px;
+  
+
+    
+}
+
+.options{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin: 5px;
+    
+}
+
+.option{
+    display: flex;
+    flex-direction: row;
+    height: 50px;
+    width: 200px;
+    border: 2px solid white;
+    border-radius: 15px;
+    margin-left: 5px;
+    font-size: 15px;
+    
+
+}
+
+span{
+    display: flex;
+    align-items: center;
+    font-size: 20px;
+    margin-top: 10px;
+    margin-left: 2px;
+    height: 25px;
+    width: 25px;
+    border-radius: 100%;
+    border: 1px solid white;
+    padding: 2px;
+}
+
+p{
+    margin: 10px;
+    font-size: 20px;
+}
